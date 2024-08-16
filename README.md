@@ -10,6 +10,6 @@ This re-trained ResNet-18 model was created on Jetson Nano and trained on a data
 3. Add any image to the final-project folder, either from the internet or from the test folder.
 4. Use this command to process the image where the PET787.jpg is the title of your image:
 
-   `python3 final-project.py PET787.jpg OutputImage.jpg'
+   `python3 final-project.py PET787.jpg OutputImage.jpg`
 5. View the output image to see the results - the percentage and clasification will be in the top left corner.
 6. Watch the video for the example!
