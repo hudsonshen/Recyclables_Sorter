@@ -9,10 +9,10 @@ This re-trained ResNet-18 model was created on Jetson Nano and trained on a data
 2. Download all of the files on this Github page.
 3. Be sure to have Docker installed, then clone the jetson-inference into your home folder.
 4. Set the net and data variables as shown below:
-   $ NET=models/snake
-   $ DATASET=data/snake3
+   `NET=models/snake`
+   `DATASET=data/snake3`
 5. Open the terminal and navigate to the classification directory
-   $ cd jetson-inference/python/training/classification
-6. Use this command to process a test image
-   $ imagenet.py --model=$NET/resnet18.onnx --input_blob=input_0 --output_blob=output_0 --labels=$DATASET/labels.txt $DATASET/test/Recyclables-Data/"Alu Test" AluCan841.jpg
+   `cd jetson-inference/python/training/classification`
+6. Use this command to process a test image, change folder to whichever catagory you want, and choose an image after 'xxx'
+   `imagenet.py --model=$NET/resnet18.onnx --input_blob=input_0 --output_blob=output_0 --labels=$DATASET/labels.txt $DATASET/test/Recyclables-Data/"Folder Test" Folderxxx.jpg`
 7. View the output image to see the results.
