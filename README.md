@@ -13,3 +13,5 @@ This re-trained ResNet-18 model was created on Jetson Nano and trained on a data
    `python3 final-project.py PET787.jpg OutputImage.jpg`
 5. View the output image to see the results - the percentage and clasification will be in the top left corner.
 6. Watch the video for the example!
+
+Video Link: https://drive.google.com/file/d/19SO9N4ShPQ7OZqgIMcQNbcjnPKaZ5_uS/view?usp=sharing 
